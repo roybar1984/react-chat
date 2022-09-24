@@ -1,0 +1,36 @@
+.login-container {
+  width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-to-chat-btn {
+  cursor: pointer;
+  background-color: rgb(70, 160, 70);
+  padding: 0.6em;
+  color: white;
+  border-radius: 0.5em;
+  margin-top: 3vh;
+  align-self: center;
+}
+
+.go-to-chat-btn:hover {
+  background-color: rgb(46, 114, 46);
+}
+
+.go-to-chat-btn:active {
+  background-color: rgb(24, 102, 24);
+}
+
+.name-input {
+  height: 4vh;
+  width: 70%;
+  font-size: 1.5vw;
+}
+
+.welcome-title {
+  font-size: 2.8vw;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+.chats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  border: solid black 50%;
+  direction: ltr;
+}
+
+hr {
+  border: 0.1vw solid black;
+  height: 100vh;
+}
+
+
+

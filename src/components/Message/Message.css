@@ -1,0 +1,48 @@
+.message {
+  width: fit-content;
+  max-width: 50%;
+  margin-top: 1vh;
+  padding: 1em;
+  border-radius: 1em;
+  word-wrap: break-word;
+  text-align: right;
+}
+
+.message-container {
+  width: fit-content;
+  max-width: 50%;
+  margin-top: 1vh;
+  padding: 0.8em;
+  border-radius: 1em;
+  word-wrap: break-word;
+  background-color: rgba(123, 209, 88, 0.685);
+
+  font-size: 1.5vw;
+}
+
+.right-messages {
+  direction: rtl;
+}
+
+.left-messages {
+  direction: ltr;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9%;
+}
+
+.recieved-message {
+  background-color: rgba(250, 255, 248, 0.878);
+}
+
+.my-message {
+  background-color: rgba(123, 209, 88, 0.685);
+}
+
+.colored-title {
+  color: rgb(71, 184, 184);
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.chat-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    background-image: url("../../media/whatsup-background.jpg");
+    background-size: 100% 100%;
+}
+
+
