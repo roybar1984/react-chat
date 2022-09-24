@@ -4,9 +4,9 @@ import Chat from "../Chat/Chat";
 
 function ChatsContainer(props) {
   const { sentMessages, setSentMessages, user1, user2 } = props;
-    useEffect(()=>{
-      props.setSentMessages([]);
-  },[]);
+  useEffect(() => {
+    props.setSentMessages([]);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="chats-container">
@@ -28,4 +28,3 @@ function ChatsContainer(props) {
 }
 
 export default ChatsContainer;
-

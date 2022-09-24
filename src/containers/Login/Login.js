@@ -11,7 +11,7 @@ function Login(props) {
     return () => {
       props.setIsOneSubmitted(false);
     };
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleChange(event) {
     setName(event.target.value);
